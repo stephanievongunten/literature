@@ -1,0 +1,25 @@
+---
+title: "Kooperation"
+author: "Kaspar Rufibach"
+date: last-modified
+output: 
+  rmarkdown::html_document:
+    highlight: pygments
+    number_sections: yes
+    self_contained: yes
+    toc: yes
+    toc_depth: 2
+    toc_float: yes
+bibliography: db.bib
+---
+
+# Wichtigstes Paper zum Thema
+
+## askdfjöa
+
+Das wichtigste Paper der letzten Jahre in diesem Gebiet ist @rufibach_23.
+
+
+# References
+
+

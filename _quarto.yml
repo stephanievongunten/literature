@@ -1,0 +1,37 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - kooperation.qmd
+
+website:
+  title: "Home"
+  navbar:
+    left:
+    - text: "Literatur Stephanie von Gunten"
+      menu:
+        - text: "Weitere links"
+          href: http://www.blick.ch
+    right:
+      - icon: github
+        href: https://github.roche.com/rufiback/literature_review_private
+  sidebar:
+    style: "floating"
+    title: "Topics"
+    collapse-level: 1
+    search: true
+    border: true
+    contents:
+      - section: "Kooperation"
+        contents:
+        - text: "Kooperation Einleitung"
+          href: kooperation.html
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: source
+
