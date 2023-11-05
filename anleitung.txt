@@ -1,0 +1,11 @@
+* Dokument editieren
+
+Einfach die .qmd Files ergänzen.
+Formatierungselemente: https://www.markdownguide.org/cheat-sheet/
+
+* Seite erzeugen
+--> Render
+
+* Ganze Homepage erzeugen
+- Rechtes oberes Fenster --> Build
+- Render Website
