@@ -1,7 +1,17 @@
+* Beim Aufstarten
+- Linkes unteres Fenster --> Terminal
+- Eingeben: git pull + enter
+
 * Dokument editieren
 
 Einfach die .qmd Files ergänzen.
 Formatierungselemente: https://www.markdownguide.org/cheat-sheet/
+
+* Neue Thema erstellen
+- Kopiere existierende .qmd Datei.
+- Editiere die (Titel, Inhalt, etc.)
+- Füge sie zu _quarto.yml hinzu (oben und unten im Inhaltsverzeichnis)
+- Ganze Homepage neu erzeugen gemäss Anleitung unten
 
 * Seite erzeugen
 --> Render
@@ -9,3 +19,16 @@ Formatierungselemente: https://www.markdownguide.org/cheat-sheet/
 * Ganze Homepage erzeugen
 - Rechtes oberes Fenster --> Build
 - Render Website
+
+* Seite auf Github Server hochschicken
+- Linkes unteres Fenster --> Terminal
+- Nacheinander eingeben und jeweils mit Enter bestätigen:
+  - git add * + enter
+  - git commit -m "update" + enter
+  - git push origin main + enter
+- Überprüfen: https://stephanievongunten.github.io/literature/kooperation.html (kann einige Minuten dauern bis Änderungen online sichtbar)
+
+* Referenzen
+- Öffne JabRef
+- Entweder füge Referenz manuell ein
+- oder lade von Zeitschrifthomepage bibtex Referenz herunter und kopiere die (oder öffne sie) in JabRef

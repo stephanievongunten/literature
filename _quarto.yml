@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: docs
   render:
-    - kooperation.qmd
+    - inklusion_schule.qmd
 
 website:
   title: "Home"
@@ -22,10 +22,10 @@ website:
     search: true
     border: true
     contents:
-      - section: "Kooperation"
+      - section: "Inklusion"
         contents:
-        - text: "Kooperation Einleitung"
-          href: kooperation.html
+        - text: "Inklusion Schule"
+          href: inklusion_schule.html
 
 format:
   html:
